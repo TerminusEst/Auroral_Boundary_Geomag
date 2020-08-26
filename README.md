@@ -23,6 +23,9 @@ Natural cubic splines are fit to these data. The boundary is taken as the point 
 
 ![Figure_1](https://user-images.githubusercontent.com/20742138/91241931-0f489a80-e714-11ea-8c8b-d77a3d3cdff2.png)
 
+And here are those boundaries for the non-log10 versions of the above plot:
+![Figure_3](https://user-images.githubusercontent.com/20742138/91332316-00a4c680-e79a-11ea-87e3-ed9f24dadd9c.png)
+
 ## Author
 Written by Sean Blake in NASA GSFC, 2018-2020
 
