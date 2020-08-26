@@ -12,7 +12,7 @@ There are two scripts:
 - math
 - datetime (4.3)
 
-## Script Explanations
+## Script Examples
 **EField_Calc.py**
 Takes INTERMAGNET 60s B-Field data, and calculates E-Field data using a 1-D resistivity profile. This example is for 3 days of data from the Eskdalemuir site (found in the Data/ folder).
 ![Figure_2](https://user-images.githubusercontent.com/20742138/91243809-d232d700-e718-11ea-89df-23bcc4f6e114.png)
