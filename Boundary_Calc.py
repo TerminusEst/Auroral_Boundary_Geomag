@@ -6,7 +6,7 @@ using Historical and Simulated Surface Magnetic Field Data", JGR SP, DOI: XXXXXX
 This script calculates the boundaries in Fig. 3, and assumes magnetic latitudes
 and maximum Eh have been previously calculated.
 
-Uses the Python gcvspline library:  
+Uses the Python gcvspline library: https://github.com/charlesll/gcvspline
 
 """
 
