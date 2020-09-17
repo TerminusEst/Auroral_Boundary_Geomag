@@ -87,8 +87,8 @@ def fit_spline_lat_e(lats, maxe, bootstrap_num = 500, lat_cutoff = 10, uselog = 
 ############################################################################
 
 # Read in data, 1 = 2003-10-30, 2 = 2009-10-07
-mlat1, maxe1 = np.loadtxt('Data/2003_10_30.txt', usecols = (0,1), unpack = True, skiprows = 1)
-mlat2, maxe2 = np.loadtxt('Data/2009_10_07.txt', usecols = (0,1), unpack = True, skiprows = 1)
+mlat1, maxe1 = np.loadtxt('Sample_Data/2003_10_30.txt', usecols = (0,1), unpack = True, skiprows = 1)
+mlat2, maxe2 = np.loadtxt('Sample_Data/2009_10_07.txt', usecols = (0,1), unpack = True, skiprows = 1)
 
 # Calculate the curves
 xthresh1, ythresh1, gradients1, absfit1 = fit_spline_lat_e(mlat1, maxe1/1000., bootstrap_num = 500, lat_cutoff = 10, uselog = True)
