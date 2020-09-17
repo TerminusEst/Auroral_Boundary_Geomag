@@ -131,8 +131,8 @@ def E_Field_1D(bx, by, resistivities, thicknesses, timestep = 60., Z = None, cal
         
 ############################################################################    
 # Read in Eskdalemuir 1 minute bx, by data (bastardised from INTERMAGNET data)    
-bx, by = np.loadtxt("Data/ESK_B.txt", usecols = (2,3), unpack = True, skiprows = 1)
-datestr, timestr = np.loadtxt("Data/ESK_B.txt", usecols = (0, 1), unpack = True, skiprows = 1, dtype = str)
+bx, by = np.loadtxt("Sample_Data/ESK_B.txt", usecols = (2,3), unpack = True, skiprows = 1)
+datestr, timestr = np.loadtxt("Sample_Data/ESK_B.txt", usecols = (0, 1), unpack = True, skiprows = 1, dtype = str)
 
 # list of datetime objects
 td = []
