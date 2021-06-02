@@ -1,5 +1,5 @@
 # Auroral_Boundary_Geomag
-Python scripts which were used to calculate auroral boundaries from geomagnetic data, as appears in Blake et al. (2020) *Estimating Maximum Extent of Auroral Equatorward Boundary Using Historical and Simulated Surface Magnetic Field Data*, JGR Space Physics, *under review*, DOI: 10.1029/2020JA028284
+Python scripts which were used to calculate auroral boundaries from geomagnetic data, as appears in Blake et al. (2020) *Estimating Maximum Extent of Auroral Equatorward Boundary Using Historical and Simulated Surface Magnetic Field Data*, JGR Space Physics, DOI: 10.1029/2020JA028284
 
 There are two scripts:
 1. **EField_Calc.py** calculates the E-field for a single [INTERMAGNET](https://intermagnet.org/) site using the [Quebec 1-D resistivity model](https://doi.org/10.1046/j.1365-246x.1998.00388.x).
